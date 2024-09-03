@@ -1,7 +1,7 @@
 
 
 <div align="center">
-<img src="logo.png" height="90px" width="auto" /> 
+<img src="https://sergiotr-minimalist.netlify.app/logo.png" height="90px" width="auto" /> 
 <h2>
     <em>Portafolio minimalista</em> maquetado para web y pdf
 </h2>
