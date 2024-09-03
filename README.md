@@ -26,11 +26,7 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
    
 </div>
 
-<p></p>
-
-<div align="center">
-    ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-</div>
+![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
 
 <img src="portada.png"></img>
 
