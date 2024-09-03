@@ -1,0 +1,360 @@
+{
+  "basics": {
+    "name": "Sergio Trúebano Robles",
+    "label": "Ingeniero Informático de Software",
+    "image": "/logo.png",
+    "email": "truebanosergio@gmail.com",
+    "phone": "+34661778360",
+    "url": "https://sergiotr.netlify.app/",
+    "summary": "Estudiante de Ingeniería Informática de Software en la Universidad de Oviedo, especializándome en desarrollo web full-stack, inteligencia artificial y seguridad informática.",
+    "location": {
+      "address": "Plaza Donantes",
+      "postalCode": "33211",
+      "city": "Gijón",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "sergiotr74",
+        "url": "https://www.linkedin.com/in/sergiotr74/"
+      },
+      {
+        "network": "GitHub",
+        "username": "sergio-tr",
+        "url": "https://github.com/sergio-tr"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Universidad de Oviedo",
+      "position": "Becario para Servicios Informáticos",
+      "url": "https://ingenieriainformatica.uniovi.es/",
+      "startDate": "2022-12-15",
+      "endDate": "2024-07-31",
+      "summary": "Becario en la Escuela de Ingeniería Informático para el mantenimiento y configuración de alrededor de 400 equipos, con su correspondiente cableado eléctrico y de red, y la aconfiguración del software.",
+      "highlights": [
+        "Creación y restauración de imágenes de sistemas operativos.",
+        "Necesidad de coordinación y trabajo en grupo.",
+        "Compromiso."
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "Universidad de Oviedo",
+    "url": "https://www.uniovi.es/",
+    "area": "Ingeniería Informática de Software - Itininerario Bilingüe",
+    "studyType": "Grado",
+    "startDate": "2020-09-14",
+    "endDate": "2024-06-01",
+    "score": "8.5",
+    "courses": [
+      "Administración de Sistemas y Redes",
+      "Arquitectura del Software",
+      "Aspectos Sociales, Legales, Éticos y Profesionales de la Informática",
+      "Calidad, Validación y Verificación del Software",
+      "Dirección y Planificación de Proyectos Informáticos",
+      "Diseño del Software",
+      "Ingeniería de Requisitos",
+      "Ingeniería del Proceso Software",
+      "Integración de Aplicaciones Empresariales",
+      "Realidad y Accesibilidad Aumentadas",
+      "Seguridad de Sistemas Informáticos",
+      "Sistemas Distribuidos e Internet",
+      "Sistemas Inteligentes",
+      "Software para Dispositivos Móviles"
+    ]
+  },
+  {
+    "institution": "Universidad de Cambridge",
+    "url": "https://www.cam.ac.uk/",
+    "area": "First Certificate in English",
+    "studyType": "Certificate",
+    "startDate": "2015-01-01",
+    "endDate": "2017-07-01",
+    "score": "172"
+
+  }],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Desarrollo de Aplicaciones", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "keywords": [
+        "Control de Versiones", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Master",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Azure",
+      "level": "Avanzado",
+      "keywords": [
+        "Administración de Servicios", "Adminisiones de Redes", "Administración de Sistemas"
+      ]
+    },
+    {
+      "name": "SQL Oracle",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "NoSQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Inteligencia Artificial", "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "C#",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Desarrollo de Aplicaciones" ,"Backend"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "FullStack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Node Framework"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": [
+        "Contenedores", "Virtualización", "Microservicios"
+      ]
+    },
+    {
+      "name": "Wikidata",
+      "level": "Avanzado",
+      "keywords": [
+        "Wikidata API", "Bases de Datos Estructuradas", "Datos Abiertos"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Web Framework"
+      ]
+    },
+    {
+      "name": "Svelte",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "UI"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermedio",
+      "keywords": [
+        "Administración de Servicios", "Adminisiones de Redes", "Administración de Sistemas"
+      ]
+    },
+    {
+      "name": "Vercel",
+      "level": "Intermedio",
+      "keywords": [
+        "Despliegue de Aplicaciones"
+      ]
+    },
+    {
+      "name": "Netlify",
+      "level": "Intermedio",
+      "keywords": [
+        "Despliegue de Aplicaciones"
+      ]
+    },
+    {
+      "name": "C",
+      "level": "Bajo",
+      "keywords": [
+        "Bajo nivel"
+      ]
+    },
+    {
+      "name": "C++",
+      "level": "Bajo",
+      "keywords": [
+        "Bajo nivel"
+      ]
+    },
+    {
+      "name": "Go",
+      "level": "Bajo",
+      "keywords": [
+        "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "Rust",
+      "level": "Bajo",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Compiladores", "Real-Time"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Bajo",
+      "keywords": [
+        "Desarrollo Web", "Backend"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Alto"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portafolio",
+      "isActive": true,
+      "description": "Proyecto personal de Sergio Trúebano mostrando mi experiencia y mis proyectos realizados, así como mi contacto.",
+      "highlights": [
+        "Portafolio",
+        "Experiencia",
+        "Proyectos realizados",
+        "Contacto"
+      ],
+      "url": "https://portfolio-seven-psi-36.vercel.app/",
+      "github": "https://github.com/sergio-tr/portafolio"
+    },
+    {
+      "name": "STAP",
+      "description": "Aplicación web que consiste en un juego que genera preguntas y respuestas utilizando la API de Wikidata. El juego tiene dos modalidades: preguntas aleatorias y una modalidad de trivia con distintas categorías.",
+      "highlights": [
+        "Juego de preguntas y respuestas",
+        "Preguntas aleatorias",
+        "Trivia",
+        "Integración continua",
+        "Testing"
+      ],
+      "github": "https://github.com/Arquisoft/wiq_en3a"
+    },
+    {
+      "name": "Clon de Spotify",
+      "description": "Aplicación web que simula la funcionalidad básica de Spotify.",
+      "highlights": [
+        "Interfaz similar a la de Spotify",
+        "Reproductor de canciones",
+        "Estado global"
+      ],
+      "github": "https://github.com/sergio-tr/spotify-clone"
+    },
+    {
+      "name": "Compilador C--",
+      "description": "Un compilador para un lenguaje creado a partir de la definición de un nuevo lenguaje de programación C-- creado a partir de ANTLR.",
+      "highlights": [
+        "Implementación desde cero",
+        "Abierto a extensiones"
+      ],
+      "github": "https://github.com/UO289930/compiler_c--"
+    },
+    {
+      "name": "Chatbot",
+      "description": "Un chatbot diseñado para responder preguntas comunes.",
+      "highlights": [
+        "Uso de inteligencia artificial MLC",
+        "Respuestas en tiempo real"
+      ],
+      "github": "https://github.com/sergio-tr/chatbot"
+    },
+    {
+      "name": "Página Web de Brunéi",
+      "description": "Página Web sobre el país de Brunéi utilizando APIs para obtener la previsión del tiempo, imágenes del país y el cambio del dólar de Brunéi al euro.",
+      "highlights": [
+        "Previsión del tiempo",
+        "Fotografía del día",
+        "Cambio del dolar"
+      ],
+      "github": "https://github.com/UO289930/EscritorioVirtual"
+    }
+  ]
+}
