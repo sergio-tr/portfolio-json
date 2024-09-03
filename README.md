@@ -18,17 +18,11 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
 </div>
 
 <div align="center">
-    <a href="#🚀-empezar">
-        Empezar
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#🧞-comandos">
-        Comandos
-    </a>
     <span>&nbsp;✦&nbsp;</span>
     <a href="https://sergiotr.netlify.app">
         Personal
     </a>
+    <span>&nbsp;✦&nbsp;</span>
    
 </div>
 
