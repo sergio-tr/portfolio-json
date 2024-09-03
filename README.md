@@ -3,7 +3,7 @@
 <div align="center">
 <img src="logo.png" height="90px" width="auto" /> 
 <h2>
-    <em>Résumé</em> minimalista maquetado para web y pdf
+    <em>Portafolio minimalista</em> maquetado para web y pdf
 </h2>
 <p>
 Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
@@ -35,11 +35,7 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
 <p></p>
 
 <div align="center">
-
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![GitHub issues](https://img.shields.io/github/issues/sergio-tr/minimalist-portfolio-json)
-![GitHub PRs](https://img.shields.io/github/issues-pr/sergio-tr/minimalist-portfolio-json)
-
 </div>
 
 <img src="portada.png"></img>

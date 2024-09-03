@@ -8,8 +8,8 @@
     "url": "https://sergiotr.netlify.app/",
     "summary": "Estudiante de Ingeniería Informática de Software en la Universidad de Oviedo, especializándome en desarrollo web full-stack, inteligencia artificial y seguridad informática.",
     "location": {
-      "address": "Plaza Donantes",
-      "postalCode": "33211",
+      "address": null,
+      "postalCode": null,
       "city": "Gijón",
       "countryCode": "ES",
       "region": "España"
