@@ -1,0 +1,138 @@
+---
+import Section from "../Section.astro"
+import HTML from "@/icons/html.astro"
+import CSS from "@/icons/css.astro"
+import JavaScript from "@/icons/javascript.astro"
+import TypeScript from "@/icons/type.astro"
+import React from "@/icons/react.astro"
+import Node from "@/icons/node.astro"
+import MySQL from "@/icons/MySQL.astro"
+import Git from "@/icons/git.astro"
+import GitHub from "@/icons/GitHub.astro"
+import Tailwind from "@/icons/tailwind.astro"
+import Azure from "@/icons/Azure.astro"
+import MongoDB from "@/icons/MongoDB.astro"
+import Java from "@/icons/Java.astro"
+import Docker from "@/icons/Docker.astro"
+import Aastro from "@/icons/Aastro.astro"
+import Svelte from "@/icons/Svelte.astro"
+import AWS from "@/icons/AWS.astro"
+import Vercel from "@/icons/Vercel.astro"
+import C from "@/icons/C.astro"
+import CSharp from "@/icons/CSharp.astro"
+import Cpp from "@/icons/Cpp.astro"
+import Go from "@/icons/Go.astro"
+import Rust from "@/icons/Rust.astro"
+import PHP from "@/icons/PHP.astro"
+import Python from "@/icons/Python.astro"
+import Wikidata from "@/icons/Wikidata.astro"
+import Netlify from "@/icons/Netlify.astro"
+
+import { skills } from "@cv"
+
+const SKILLS_ICONS: Record<string, any> = {
+  Azure,
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Tailwind,
+  MongoDB,
+  Java,
+  Docker,
+  Svelte,
+  AWS,
+  Aastro,
+  Vercel,
+  C,
+  CSharp,
+  Cpp,
+  Go,
+  Rust,
+  PHP,
+  Python,
+  Wikidata,
+  Netlify
+}
+---
+
+<Section title="Habilidades">
+  <ul>
+    {
+      skills.map(({ name, level }) => { 
+
+        
+        let iconName = null
+
+        switch (name) {
+          case "C++":
+            iconName = "Cpp"
+            break
+          case "C#":
+            iconName = "CSharp"
+            break
+          case "Express":
+            iconName = "Node"
+            break
+          case "Astro":
+            iconName = "Aastro"
+            break
+          default:
+            iconName = name
+        }
+
+        const Icon = SKILLS_ICONS[iconName]
+
+        let levelIcon = null
+
+        switch (level.toLowerCase()) {
+          case "bajo":
+            levelIcon = "★";
+            break;
+          case "intermedio":
+            levelIcon = "★★";
+            break;
+          case "avanzado":
+            levelIcon = "★★★";
+            break;
+          case "master":
+            levelIcon = "★★★★";
+            break;
+          default:
+            levelIcon = "☆☆☆☆";
+        }
+
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name} {levelIcon}</span>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+</style>
