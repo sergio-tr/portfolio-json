@@ -70,6 +70,38 @@ const SKILLS_ICONS: Record<string, any> = {
         let iconName = null
 
         switch (name) {
+          case "FastAPI":
+          case "pytest":
+          case "Ollama":
+          case "LiteLLM":
+          case "scikit-learn":
+            iconName = "Python"
+            break
+          case "Next.js":
+          case "Vitest":
+            iconName = "React"
+            break
+          case "ngrok":
+          case "Nginx":
+          case "SonarCloud":
+          case "OpenAPI":
+          case "Loki":
+            iconName = "Docker"
+            break
+          case "Maven":
+          case "Spring Boot":
+          case "Spring AI":
+          case "Flyway":
+            iconName = "Java"
+            break
+          case "PostgreSQL":
+          case "pgvector":
+          case "SQL Oracle":
+            iconName = "MySQL"
+            break
+          case "CI/CD":
+            iconName = "GitHub"
+            break
           case "C++":
             iconName = "Cpp"
             break
@@ -86,7 +118,7 @@ const SKILLS_ICONS: Record<string, any> = {
             iconName = name
         }
 
-        const Icon = SKILLS_ICONS[iconName]
+        const Icon = iconName ? SKILLS_ICONS[iconName] : null
 
         let levelIcon = null
 

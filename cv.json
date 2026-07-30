@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Sergio Trúebano Robles",
-    "label": "Ingeniero Informático de Software",
-    "image": "/logo.png",
+    "label": "Ingeniero Informático del Software",
+    "image": "https://unavatar.io/linkedin/sergiotr74",
     "email": "truebanosergio@gmail.com",
     "phone": "+34661778360",
     "url": "https://sergiotr.netlify.app/",
-    "summary": "Estudiante de Ingeniería Informática de Software en la Universidad de Oviedo, especializándome en desarrollo web full-stack, inteligencia artificial y seguridad informática.",
+    "summary": "Ingeniero Informático del Software por la Universidad de Oviedo (sept. 2021 – jul. 2026). Trabajo en Indra desde enero de 2025 en automatización y tools de Air Traffic Management (ATM). Enfocado en inteligencia artificial aplicada: modelos de lenguaje, sistemas RAG, orquestación multi-modelo, uso de herramientas y arquitecturas agénticas. TFG rag-spring-ai-ollama con matrícula de honor (Spring Boot / Spring AI, LiteLLM/Ollama, Next.js, PostgreSQL + pgvector). También mensajería (AMQP, multicast, IDL, Protocol Buffers) y observabilidad (OpenTelemetry, Prometheus, Jaeger, Grafana).",
     "location": {
       "address": null,
       "postalCode": null,
@@ -29,12 +29,25 @@
   },
   "work": [
     {
+      "name": "Indra Sistemas",
+      "position": "Ingeniero de Software — Automatización y Tools de Air Traffic Management (ATM)",
+      "url": "https://www.indracompany.com/",
+      "startDate": "2025-01-01",
+      "endDate": null,
+      "summary": "Desarrollo de soluciones software en el ámbito de Air Traffic Management (ATM), dentro de un equipo de automatización y tools orientado a pruebas. Mantengo y mejoro herramientas backend y frontend usadas en la validación del sistema, y participo en el desarrollo de aplicaciones web de testing automatizado conectadas por API REST, con monitorización mediante OpenTelemetry, Prometheus, Jaeger y Grafana. El conocimiento end-to-end del ecosistema ATM facilita la integración, el debugging y las pruebas de integración y E2E.",
+      "highlights": [
+        "Herramientas de automatización para testing de integración y end-to-end",
+        "Aplicaciones frontend y backend distribuidas en los componentes del sistema a probar",
+        "Observabilidad con OpenTelemetry, Prometheus, Jaeger y Grafana"
+      ]
+    },
+    {
       "name": "Universidad de Oviedo",
       "position": "Becario para Servicios Informáticos",
       "url": "https://ingenieriainformatica.uniovi.es/",
       "startDate": "2022-12-15",
       "endDate": "2024-07-31",
-      "summary": "Becario en la Escuela de Ingeniería Informático para el mantenimiento y configuración de alrededor de 400 equipos, con su correspondiente cableado eléctrico y de red, y la aconfiguración del software.",
+      "summary": "Becario en la Escuela de Ingeniería Informática para el mantenimiento y configuración de alrededor de 400 equipos, con su correspondiente cableado eléctrico y de red, y la configuración del software.",
       "highlights": [
         "Creación y restauración de imágenes de sistemas operativos.",
         "Necesidad de coordinación y trabajo en grupo.",
@@ -45,10 +58,10 @@
   "education": [{
     "institution": "Universidad de Oviedo",
     "url": "https://www.uniovi.es/",
-    "area": "Ingeniería Informática de Software - Itininerario Bilingüe",
+    "area": "Ingeniería Informática del Software - Itinerario Bilingüe",
     "studyType": "Grado",
-    "startDate": "2020-09-14",
-    "endDate": "2024-06-01",
+    "startDate": "2021-09-01",
+    "endDate": "2026-07-31",
     "score": "8.5",
     "courses": [
       "Administración de Sistemas y Redes",
@@ -64,7 +77,8 @@
       "Seguridad de Sistemas Informáticos",
       "Sistemas Distribuidos e Internet",
       "Sistemas Inteligentes",
-      "Software para Dispositivos Móviles"
+      "Software para Dispositivos Móviles",
+      "Trabajo de Fin de Grado — Matrícula de honor"
     ]
   },
   {
@@ -79,207 +93,304 @@
   }],
   "skills": [
     {
+      "name": "Spring Boot",
+      "level": "Avanzado",
+      "keywords": ["Backend", "Java", "Microservicios", "API REST"]
+    },
+    {
+      "name": "Spring AI",
+      "level": "Avanzado",
+      "keywords": ["LLM", "RAG", "Arquitecturas agénticas", "Java"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": ["Frontend", "React", "FullStack", "TypeScript"]
+    },
+    {
+      "name": "FastAPI",
+      "level": "Avanzado",
+      "keywords": ["Python", "Backend", "Microservicios", "Clasificadores"]
+    },
+    {
+      "name": "LiteLLM",
+      "level": "Avanzado",
+      "keywords": ["LLM", "Orquestación multi-modelo", "OpenAI-compatible"]
+    },
+    {
+      "name": "Ollama",
+      "level": "Avanzado",
+      "keywords": ["LLM", "Modelos locales", "Inferencia"]
+    },
+    {
+      "name": "ngrok",
+      "level": "Avanzado",
+      "keywords": ["Túneles", "Despliegue", "Exposición pública", "DevOps"]
+    },
+    {
+      "name": "SonarCloud",
+      "level": "Avanzado",
+      "keywords": ["Calidad de código", "Análisis estático", "CI/CD"]
+    },
+    {
+      "name": "Maven",
+      "level": "Avanzado",
+      "keywords": ["Java", "Build", "Spring Boot"]
+    },
+    {
+      "name": "OpenAPI",
+      "level": "Avanzado",
+      "keywords": ["API", "Swagger", "Documentación"]
+    },
+    {
+      "name": "scikit-learn",
+      "level": "Avanzado",
+      "keywords": ["Machine Learning", "Clasificación", "Python"]
+    },
+    {
+      "name": "Loki",
+      "level": "Intermedio",
+      "keywords": ["Logs", "Observabilidad", "Grafana"]
+    },
+    {
+      "name": "Vitest",
+      "level": "Intermedio",
+      "keywords": ["Testing", "Frontend", "JavaScript"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "SQL", "Backend"]
+    },
+    {
+      "name": "pgvector",
+      "level": "Avanzado",
+      "keywords": ["Embeddings", "RAG", "Búsqueda vectorial", "PostgreSQL"]
+    },
+    {
+      "name": "OpenTelemetry",
+      "level": "Avanzado",
+      "keywords": ["Observabilidad", "Tracing", "Métricas"]
+    },
+    {
+      "name": "Prometheus",
+      "level": "Avanzado",
+      "keywords": ["Observabilidad", "Métricas", "Monitorización"]
+    },
+    {
+      "name": "Grafana",
+      "level": "Avanzado",
+      "keywords": ["Observabilidad", "Dashboards", "Monitorización"]
+    },
+    {
+      "name": "Jaeger",
+      "level": "Avanzado",
+      "keywords": ["Observabilidad", "Distributed tracing"]
+    },
+    {
+      "name": "AMQP",
+      "level": "Avanzado",
+      "keywords": ["Mensajería", "Sistemas distribuidos", "ATM"]
+    },
+    {
+      "name": "Protocol Buffers",
+      "level": "Avanzado",
+      "keywords": ["Serialización", "IDL", "Mensajería", "Sistemas distribuidos"]
+    },
+    {
+      "name": "IDL",
+      "level": "Avanzado",
+      "keywords": ["Interfaces", "Mensajería", "Sistemas distribuidos"]
+    },
+    {
+      "name": "Multicast",
+      "level": "Avanzado",
+      "keywords": ["Redes", "Mensajería", "Sistemas distribuidos", "ATM"]
+    },
+    {
       "name": "Java",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Desarrollo de Aplicaciones", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Master",
-      "keywords": [
-        "Control de Versiones", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Master",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Azure",
-      "level": "Avanzado",
-      "keywords": [
-        "Administración de Servicios", "Adminisiones de Redes", "Administración de Sistemas"
-      ]
-    },
-    {
-      "name": "SQL Oracle",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "NoSQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "HTML",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "Python",
-      "level": "Avanzado",
-      "keywords": [
-        "Inteligencia Artificial", "Desarrollo Web", "Backend"
-      ]
-    },
-    {
-      "name": "C#",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Desarrollo de Aplicaciones" ,"Backend"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "FullStack"
-      ]
+      "keywords": ["Desarrollo Web", "Desarrollo de Aplicaciones", "Backend", "Spring Boot"]
     },
     {
       "name": "TypeScript",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "FullStack"]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": ["Inteligencia Artificial", "Desarrollo Web", "Backend", "FastAPI"]
+    },
+    {
+      "name": "C#",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Desarrollo de Aplicaciones", "Backend"]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI", "Next.js"]
     },
     {
       "name": "Node",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend"
-      ]
+      "keywords": ["Desarrollo Web", "Backend"]
     },
     {
       "name": "Express",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "Node Framework"
-      ]
-    },
-    {
-      "name": "Docker",
-      "level": "Avanzado",
-      "keywords": [
-        "Contenedores", "Virtualización", "Microservicios"
-      ]
-    },
-    {
-      "name": "Wikidata",
-      "level": "Avanzado",
-      "keywords": [
-        "Wikidata API", "Bases de Datos Estructuradas", "Datos Abiertos"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
+      "keywords": ["Desarrollo Web", "Backend", "Node Framework"]
     },
     {
       "name": "Astro",
       "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Web Framework"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Web Framework"]
     },
     {
       "name": "Svelte",
       "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "UI"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "UI"]
+    },
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"]
+    },
+    {
+      "name": "XML",
+      "level": "Avanzado",
+      "keywords": ["Datos", "Integración", "Mensajería"]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": ["Contenedores", "Virtualización", "Microservicios", "Compose"]
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "keywords": ["Control de Versiones", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Master",
+      "keywords": ["Control de Versiones", "Colaboración", "CI/CD", "Git"]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Avanzado",
+      "keywords": ["GitHub Actions", "Automatización", "Pipelines"]
+    },
+    {
+      "name": "Gatling",
+      "level": "Avanzado",
+      "keywords": ["Performance", "Load testing", "Stress testing"]
+    },
+    {
+      "name": "Playwright",
+      "level": "Intermedio",
+      "keywords": ["E2E", "Testing", "Automatización"]
+    },
+    {
+      "name": "pytest",
+      "level": "Avanzado",
+      "keywords": ["Testing", "Python", "Cobertura"]
+    },
+    {
+      "name": "Flyway",
+      "level": "Avanzado",
+      "keywords": ["Migraciones", "PostgreSQL", "Backend"]
+    },
+    {
+      "name": "Nginx",
+      "level": "Intermedio",
+      "keywords": ["Reverse proxy", "Infraestructura"]
+    },
+    {
+      "name": "Azure",
+      "level": "Avanzado",
+      "keywords": ["Cloud", "Despliegue", "Administración de Servicios"]
     },
     {
       "name": "AWS",
       "level": "Intermedio",
-      "keywords": [
-        "Administración de Servicios", "Adminisiones de Redes", "Administración de Sistemas"
-      ]
+      "keywords": ["Cloud", "Despliegue", "Administración de Servicios"]
     },
     {
       "name": "Vercel",
       "level": "Intermedio",
-      "keywords": [
-        "Despliegue de Aplicaciones"
-      ]
+      "keywords": ["Despliegue de Aplicaciones"]
     },
     {
       "name": "Netlify",
       "level": "Intermedio",
-      "keywords": [
-        "Despliegue de Aplicaciones"
-      ]
+      "keywords": ["Despliegue de Aplicaciones"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "NoSQL", "Backend"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "SQL", "Backend"]
+    },
+    {
+      "name": "SQL Oracle",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "SQL", "Backend"]
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "Intermedio",
+      "keywords": ["Búsqueda", "Índices", "Observabilidad"]
+    },
+    {
+      "name": "Wikidata",
+      "level": "Avanzado",
+      "keywords": ["Wikidata API", "Datos Abiertos"]
     },
     {
       "name": "C",
       "level": "Bajo",
-      "keywords": [
-        "Bajo nivel"
-      ]
+      "keywords": ["Bajo nivel"]
     },
     {
       "name": "C++",
       "level": "Bajo",
-      "keywords": [
-        "Bajo nivel"
-      ]
+      "keywords": ["Bajo nivel"]
     },
     {
       "name": "Go",
       "level": "Bajo",
-      "keywords": [
-        "Desarrollo Web", "Backend"
-      ]
+      "keywords": ["Desarrollo Web", "Backend"]
     },
     {
       "name": "Rust",
       "level": "Bajo",
-      "keywords": [
-        "Desarrollo Web", "Backend", "Compiladores", "Real-Time"
-      ]
+      "keywords": ["Backend", "Compiladores", "Real-Time"]
     },
     {
       "name": "PHP",
       "level": "Bajo",
-      "keywords": [
-        "Desarrollo Web", "Backend"
-      ]
+      "keywords": ["Desarrollo Web", "Backend"]
     }
   ],
   "languages": [
@@ -294,6 +405,23 @@
   ],
   "projects": [
     {
+      "name": "TFG: RAG Spring AI Ollama",
+      "isActive": true,
+      "description": "Trabajo de Fin de Grado con matrícula de honor. Sistema RAG orientado a modelos LLM: Spring Boot, Spring AI, LiteLLM/Ollama, PostgreSQL + pgvector y web Next.js. Incluye clasificador FastAPI, orquestación de providers, embeddings y recuperación vectorial, observabilidad (OpenTelemetry, Prometheus, Jaeger, Grafana) y CI/CD. Base para pipelines de IA, uso de herramientas y arquitecturas agénticas.",
+      "highlights": [
+        "Matrícula de honor",
+        "LLM / Spring AI / LiteLLM / Ollama",
+        "RAG + pgvector + embeddings",
+        "Next.js",
+        "Clasificador FastAPI / multi-modelo",
+        "Base para arquitecturas agénticas",
+        "Observabilidad OTEL / Prometheus / Jaeger / Grafana",
+        "CI/CD"
+      ],
+      "url": "https://sergio-tr.github.io/rag-spring-ai-ollama/",
+      "github": "https://github.com/sergio-tr/rag-spring-ai-ollama"
+    },
+    {
       "name": "Portafolio",
       "isActive": true,
       "description": "Proyecto personal de Sergio Trúebano mostrando mi experiencia y mis proyectos realizados, así como mi contacto.",
@@ -303,8 +431,8 @@
         "Proyectos realizados",
         "Contacto"
       ],
-      "url": "https://portfolio-seven-psi-36.vercel.app/",
-      "github": "https://github.com/sergio-tr/portafolio"
+      "url": "https://sergiotr.netlify.app/",
+      "github": "https://github.com/sergio-tr/portfolio"
     },
     {
       "name": "STAP",
