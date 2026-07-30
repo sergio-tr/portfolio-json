@@ -93,221 +93,269 @@
   }],
   "skills": [
     {
-      "name": "Java",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Desarrollo de Aplicaciones", "Backend", "Spring Boot"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Master",
-      "keywords": [
-        "Control de Versiones", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Master",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Azure",
-      "level": "Avanzado",
-      "keywords": [
-        "Administración de Servicios", "Adminisiones de Redes", "Administración de Sistemas"
-      ]
-    },
-    {
-      "name": "SQL Oracle",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "NoSQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "HTML",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "Python",
-      "level": "Avanzado",
-      "keywords": [
-        "Inteligencia Artificial", "Desarrollo Web", "Backend", "FastAPI"
-      ]
-    },
-    {
-      "name": "C#",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Desarrollo de Aplicaciones" ,"Backend"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "FullStack"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend"
-      ]
-    },
-    {
-      "name": "Express",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "Node Framework"
-      ]
-    },
-    {
-      "name": "Docker",
-      "level": "Avanzado",
-      "keywords": [
-        "Contenedores", "Virtualización", "Microservicios"
-      ]
-    },
-    {
-      "name": "Wikidata",
-      "level": "Avanzado",
-      "keywords": [
-        "Wikidata API", "Bases de Datos Estructuradas", "Datos Abiertos"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI", "Next.js"
-      ]
-    },
-    {
-      "name": "Astro",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Web Framework"
-      ]
-    },
-    {
-      "name": "Svelte",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "UI"
-      ]
-    },
-    {
-      "name": "AWS",
-      "level": "Intermedio",
-      "keywords": [
-        "Administración de Servicios", "Adminisiones de Redes", "Administración de Sistemas"
-      ]
-    },
-    {
-      "name": "Vercel",
-      "level": "Intermedio",
-      "keywords": [
-        "Despliegue de Aplicaciones"
-      ]
-    },
-    {
-      "name": "Netlify",
-      "level": "Intermedio",
-      "keywords": [
-        "Despliegue de Aplicaciones"
-      ]
-    },
-    {
       "name": "Spring Boot",
       "level": "Avanzado",
-      "keywords": [
-        "Backend", "Java", "Spring AI", "RAG", "LLM", "Arquitecturas agénticas", "Herramientas / agents", "Microservicios"
-      ]
+      "keywords": ["Backend", "Java", "Microservicios", "API REST"]
+    },
+    {
+      "name": "Spring AI",
+      "level": "Avanzado",
+      "keywords": ["LLM", "RAG", "Arquitecturas agénticas", "Java"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": ["Frontend", "React", "FullStack", "TypeScript"]
+    },
+    {
+      "name": "FastAPI",
+      "level": "Avanzado",
+      "keywords": ["Python", "Backend", "Microservicios", "Clasificadores"]
+    },
+    {
+      "name": "LiteLLM",
+      "level": "Avanzado",
+      "keywords": ["LLM", "Orquestación multi-modelo", "OpenAI-compatible"]
+    },
+    {
+      "name": "Ollama",
+      "level": "Avanzado",
+      "keywords": ["LLM", "Modelos locales", "Inferencia"]
     },
     {
       "name": "PostgreSQL",
       "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "pgvector", "Backend"
-      ]
+      "keywords": ["Bases de Datos", "SQL", "Backend"]
+    },
+    {
+      "name": "pgvector",
+      "level": "Avanzado",
+      "keywords": ["Embeddings", "RAG", "Búsqueda vectorial", "PostgreSQL"]
+    },
+    {
+      "name": "OpenTelemetry",
+      "level": "Avanzado",
+      "keywords": ["Observabilidad", "Tracing", "Métricas"]
+    },
+    {
+      "name": "Prometheus",
+      "level": "Avanzado",
+      "keywords": ["Observabilidad", "Métricas", "Monitorización"]
+    },
+    {
+      "name": "Grafana",
+      "level": "Avanzado",
+      "keywords": ["Observabilidad", "Dashboards", "Monitorización"]
+    },
+    {
+      "name": "Jaeger",
+      "level": "Avanzado",
+      "keywords": ["Observabilidad", "Distributed tracing"]
+    },
+    {
+      "name": "AMQP",
+      "level": "Avanzado",
+      "keywords": ["Mensajería", "Sistemas distribuidos", "ATM"]
+    },
+    {
+      "name": "Protocol Buffers",
+      "level": "Avanzado",
+      "keywords": ["Serialización", "IDL", "Mensajería", "Sistemas distribuidos"]
+    },
+    {
+      "name": "IDL",
+      "level": "Avanzado",
+      "keywords": ["Interfaces", "Mensajería", "Sistemas distribuidos"]
+    },
+    {
+      "name": "Multicast",
+      "level": "Avanzado",
+      "keywords": ["Redes", "Mensajería", "Sistemas distribuidos", "ATM"]
+    },
+    {
+      "name": "Java",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Desarrollo de Aplicaciones", "Backend", "Spring Boot"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "FullStack"]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": ["Inteligencia Artificial", "Desarrollo Web", "Backend", "FastAPI"]
+    },
+    {
+      "name": "C#",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Desarrollo de Aplicaciones", "Backend"]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI", "Next.js"]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend"]
+    },
+    {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "Node Framework"]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Web Framework"]
+    },
+    {
+      "name": "Svelte",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "UI"]
+    },
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"]
+    },
+    {
+      "name": "XML",
+      "level": "Avanzado",
+      "keywords": ["Datos", "Integración", "Mensajería"]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": ["Contenedores", "Virtualización", "Microservicios", "Compose"]
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "keywords": ["Control de Versiones", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Master",
+      "keywords": ["Control de Versiones", "Colaboración", "CI/CD", "Git"]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Avanzado",
+      "keywords": ["GitHub Actions", "Automatización", "Pipelines"]
+    },
+    {
+      "name": "Gatling",
+      "level": "Avanzado",
+      "keywords": ["Performance", "Load testing", "Stress testing"]
+    },
+    {
+      "name": "Playwright",
+      "level": "Intermedio",
+      "keywords": ["E2E", "Testing", "Automatización"]
+    },
+    {
+      "name": "pytest",
+      "level": "Avanzado",
+      "keywords": ["Testing", "Python", "Cobertura"]
+    },
+    {
+      "name": "Flyway",
+      "level": "Avanzado",
+      "keywords": ["Migraciones", "PostgreSQL", "Backend"]
+    },
+    {
+      "name": "Nginx",
+      "level": "Intermedio",
+      "keywords": ["Reverse proxy", "Infraestructura"]
+    },
+    {
+      "name": "Azure",
+      "level": "Avanzado",
+      "keywords": ["Cloud", "Despliegue", "Administración de Servicios"]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermedio",
+      "keywords": ["Cloud", "Despliegue", "Administración de Servicios"]
+    },
+    {
+      "name": "Vercel",
+      "level": "Intermedio",
+      "keywords": ["Despliegue de Aplicaciones"]
+    },
+    {
+      "name": "Netlify",
+      "level": "Intermedio",
+      "keywords": ["Despliegue de Aplicaciones"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "NoSQL", "Backend"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "SQL", "Backend"]
+    },
+    {
+      "name": "SQL Oracle",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "SQL", "Backend"]
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "Intermedio",
+      "keywords": ["Búsqueda", "Índices", "Observabilidad"]
+    },
+    {
+      "name": "Wikidata",
+      "level": "Avanzado",
+      "keywords": ["Wikidata API", "Datos Abiertos"]
     },
     {
       "name": "C",
       "level": "Bajo",
-      "keywords": [
-        "Bajo nivel"
-      ]
+      "keywords": ["Bajo nivel"]
     },
     {
       "name": "C++",
       "level": "Bajo",
-      "keywords": [
-        "Bajo nivel"
-      ]
+      "keywords": ["Bajo nivel"]
     },
     {
       "name": "Go",
       "level": "Bajo",
-      "keywords": [
-        "Desarrollo Web", "Backend"
-      ]
+      "keywords": ["Desarrollo Web", "Backend"]
     },
     {
       "name": "Rust",
       "level": "Bajo",
-      "keywords": [
-        "Desarrollo Web", "Backend", "Compiladores", "Real-Time"
-      ]
+      "keywords": ["Backend", "Compiladores", "Real-Time"]
     },
     {
       "name": "PHP",
       "level": "Bajo",
-      "keywords": [
-        "Desarrollo Web", "Backend"
-      ]
+      "keywords": ["Desarrollo Web", "Backend"]
     }
   ],
   "languages": [

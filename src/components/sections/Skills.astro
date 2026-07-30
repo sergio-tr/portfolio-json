@@ -82,11 +82,33 @@ const SKILLS_ICONS: Record<string, any> = {
           case "Astro":
             iconName = "Aastro"
             break
+          case "Spring Boot":
+          case "Spring AI":
+          case "Flyway":
+            iconName = "Java"
+            break
+          case "Next.js":
+            iconName = "React"
+            break
+          case "FastAPI":
+          case "pytest":
+          case "Ollama":
+          case "LiteLLM":
+            iconName = "Python"
+            break
+          case "PostgreSQL":
+          case "pgvector":
+          case "SQL Oracle":
+            iconName = "MySQL"
+            break
+          case "CI/CD":
+            iconName = "GitHub"
+            break
           default:
             iconName = name
         }
 
-        const Icon = SKILLS_ICONS[iconName]
+        const Icon = iconName ? SKILLS_ICONS[iconName] : null
 
         let levelIcon = null
 
