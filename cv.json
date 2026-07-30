@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Sergio Trúebano Robles",
-    "label": "Ingeniero Informático de Software",
+    "label": "Ingeniero Informático del Software",
     "image": "/logo.png",
     "email": "truebanosergio@gmail.com",
     "phone": "+34661778360",
     "url": "https://sergiotr.netlify.app/",
-    "summary": "Estudiante de Ingeniería Informática de Software en la Universidad de Oviedo, especializándome en desarrollo web full-stack, inteligencia artificial y seguridad informática.",
+    "summary": "Ingeniero Informático del Software por la Universidad de Oviedo (sept. 2021 – jul. 2026). Trabajo en Indra desde enero de 2025 en automatización y tools de Air Traffic Management (ATM). Enfocado en inteligencia artificial aplicada: modelos de lenguaje, sistemas RAG, orquestación multi-modelo, uso de herramientas y arquitecturas agénticas. TFG rag-spring-ai-ollama con matrícula de honor (Spring Boot / Spring AI, LiteLLM/Ollama, Next.js, PostgreSQL + pgvector). También mensajería (AMQP, multicast, IDL, Protocol Buffers) y observabilidad (OpenTelemetry, Prometheus, Jaeger, Grafana).",
     "location": {
       "address": null,
       "postalCode": null,
@@ -29,12 +29,25 @@
   },
   "work": [
     {
+      "name": "Indra Sistemas",
+      "position": "Ingeniero de Software — Automatización y Tools de Air Traffic Management (ATM)",
+      "url": "https://www.indracompany.com/",
+      "startDate": "2025-01-01",
+      "endDate": null,
+      "summary": "Desarrollo de soluciones software en el ámbito de Air Traffic Management (ATM), dentro de un equipo de automatización y tools orientado a pruebas. Mantengo y mejoro herramientas backend y frontend usadas en la validación del sistema, y participo en el desarrollo de aplicaciones web de testing automatizado conectadas por API REST, con monitorización mediante OpenTelemetry, Prometheus, Jaeger y Grafana. El conocimiento end-to-end del ecosistema ATM facilita la integración, el debugging y las pruebas de integración y E2E.",
+      "highlights": [
+        "Herramientas de automatización para testing de integración y end-to-end",
+        "Aplicaciones frontend y backend distribuidas en los componentes del sistema a probar",
+        "Observabilidad con OpenTelemetry, Prometheus, Jaeger y Grafana"
+      ]
+    },
+    {
       "name": "Universidad de Oviedo",
       "position": "Becario para Servicios Informáticos",
       "url": "https://ingenieriainformatica.uniovi.es/",
       "startDate": "2022-12-15",
       "endDate": "2024-07-31",
-      "summary": "Becario en la Escuela de Ingeniería Informático para el mantenimiento y configuración de alrededor de 400 equipos, con su correspondiente cableado eléctrico y de red, y la aconfiguración del software.",
+      "summary": "Becario en la Escuela de Ingeniería Informática para el mantenimiento y configuración de alrededor de 400 equipos, con su correspondiente cableado eléctrico y de red, y la configuración del software.",
       "highlights": [
         "Creación y restauración de imágenes de sistemas operativos.",
         "Necesidad de coordinación y trabajo en grupo.",
@@ -45,10 +58,10 @@
   "education": [{
     "institution": "Universidad de Oviedo",
     "url": "https://www.uniovi.es/",
-    "area": "Ingeniería Informática de Software - Itininerario Bilingüe",
+    "area": "Ingeniería Informática del Software - Itinerario Bilingüe",
     "studyType": "Grado",
-    "startDate": "2020-09-14",
-    "endDate": "2024-06-01",
+    "startDate": "2021-09-01",
+    "endDate": "2026-07-31",
     "score": "8.5",
     "courses": [
       "Administración de Sistemas y Redes",
@@ -64,7 +77,8 @@
       "Seguridad de Sistemas Informáticos",
       "Sistemas Distribuidos e Internet",
       "Sistemas Inteligentes",
-      "Software para Dispositivos Móviles"
+      "Software para Dispositivos Móviles",
+      "Trabajo de Fin de Grado — Matrícula de honor"
     ]
   },
   {
@@ -82,7 +96,7 @@
       "name": "Java",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Desarrollo de Aplicaciones", "Backend"
+        "Desarrollo Web", "Desarrollo de Aplicaciones", "Backend", "Spring Boot"
       ]
     },
     {
@@ -152,7 +166,7 @@
       "name": "Python",
       "level": "Avanzado",
       "keywords": [
-        "Inteligencia Artificial", "Desarrollo Web", "Backend"
+        "Inteligencia Artificial", "Desarrollo Web", "Backend", "FastAPI"
       ]
     },
     {
@@ -206,9 +220,9 @@
     },
     {
       "name": "React",
-      "level": "Intermedio",
+      "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI", "Next.js"
       ]
     },
     {
@@ -244,6 +258,20 @@
       "level": "Intermedio",
       "keywords": [
         "Despliegue de Aplicaciones"
+      ]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend", "Java", "Spring AI", "RAG", "LLM", "Arquitecturas agénticas", "Herramientas / agents", "Microservicios"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "pgvector", "Backend"
       ]
     },
     {
@@ -294,6 +322,23 @@
   ],
   "projects": [
     {
+      "name": "TFG: RAG Spring AI Ollama",
+      "isActive": true,
+      "description": "Trabajo de Fin de Grado con matrícula de honor. Sistema RAG orientado a modelos LLM: Spring Boot, Spring AI, LiteLLM/Ollama, PostgreSQL + pgvector y web Next.js. Incluye clasificador FastAPI, orquestación de providers, embeddings y recuperación vectorial, observabilidad (OpenTelemetry, Prometheus, Jaeger, Grafana) y CI/CD. Base para pipelines de IA, uso de herramientas y arquitecturas agénticas.",
+      "highlights": [
+        "Matrícula de honor",
+        "LLM / Spring AI / LiteLLM / Ollama",
+        "RAG + pgvector + embeddings",
+        "Next.js",
+        "Clasificador FastAPI / multi-modelo",
+        "Base para arquitecturas agénticas",
+        "Observabilidad OTEL / Prometheus / Jaeger / Grafana",
+        "CI/CD"
+      ],
+      "url": "https://sergio-tr.github.io/rag-spring-ai-ollama/",
+      "github": "https://github.com/sergio-tr/rag-spring-ai-ollama"
+    },
+    {
       "name": "Portafolio",
       "isActive": true,
       "description": "Proyecto personal de Sergio Trúebano mostrando mi experiencia y mis proyectos realizados, así como mi contacto.",
@@ -303,8 +348,8 @@
         "Proyectos realizados",
         "Contacto"
       ],
-      "url": "https://portfolio-seven-psi-36.vercel.app/",
-      "github": "https://github.com/sergio-tr/portafolio"
+      "url": "https://sergiotr.netlify.app/",
+      "github": "https://github.com/sergio-tr/portfolio"
     },
     {
       "name": "STAP",
