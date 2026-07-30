@@ -123,6 +123,41 @@
       "keywords": ["LLM", "Modelos locales", "Inferencia"]
     },
     {
+      "name": "ngrok",
+      "level": "Avanzado",
+      "keywords": ["Túneles", "Despliegue", "Exposición pública", "DevOps"]
+    },
+    {
+      "name": "SonarCloud",
+      "level": "Avanzado",
+      "keywords": ["Calidad de código", "Análisis estático", "CI/CD"]
+    },
+    {
+      "name": "Maven",
+      "level": "Avanzado",
+      "keywords": ["Java", "Build", "Spring Boot"]
+    },
+    {
+      "name": "OpenAPI",
+      "level": "Avanzado",
+      "keywords": ["API", "Swagger", "Documentación"]
+    },
+    {
+      "name": "scikit-learn",
+      "level": "Avanzado",
+      "keywords": ["Machine Learning", "Clasificación", "Python"]
+    },
+    {
+      "name": "Loki",
+      "level": "Intermedio",
+      "keywords": ["Logs", "Observabilidad", "Grafana"]
+    },
+    {
+      "name": "Vitest",
+      "level": "Intermedio",
+      "keywords": ["Testing", "Frontend", "JavaScript"]
+    },
+    {
       "name": "PostgreSQL",
       "level": "Avanzado",
       "keywords": ["Bases de Datos", "SQL", "Backend"]
