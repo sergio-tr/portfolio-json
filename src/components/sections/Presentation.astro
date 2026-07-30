@@ -90,7 +90,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name} />
+      <img
+        src={image}
+        alt={name}
+        referrerpolicy="no-referrer"
+        loading="eager"
+        onerror="this.onerror=null;this.src='/logo.png'"
+      />
     </figure>
   </div>
 </Section>
